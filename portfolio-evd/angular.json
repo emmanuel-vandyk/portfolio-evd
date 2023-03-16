@@ -26,10 +26,10 @@
             ],
             "styles": [
               "src/styles.css",
-              "portfolio-evd/node_modules/bootstrap/dist/css/bootstrap.css"
+              "node_modules/bootstrap/dist/css/bootstrap.css"
             ],
             "scripts": [
-              "portfolio-evd/node_modules/bootstrap7dist/js/bootstrap.js"
+              "node_modules/bootstrap/dist/js/bootstrap.js"
             ]
           },
           "configurations": {
