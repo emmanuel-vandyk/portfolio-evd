@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+/* Font Imports */
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+/* Global Styles */
+:root {
+    --bg-general: #14191D;
+    --name-font: 'Rock Salt', cursive;
+    --fg-color: #EE652B;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-general);
+}
