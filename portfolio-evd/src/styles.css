@@ -1,11 +1,14 @@
 /* Font Imports */
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 /* Global Styles */
 :root {
     --bg-general: #14191D;
     --name-font: 'Rock Salt', cursive;
+    --general-font: 'Raleway', sans-serif;
     --fg-color: #EE652B;
+    --log-btn: #13161A;
 }
 
 * {
@@ -13,4 +16,6 @@
     margin: 0;
     padding: 0;
     background-color: var(--bg-general);
+    font-family: var(--general-font);
+
 }
