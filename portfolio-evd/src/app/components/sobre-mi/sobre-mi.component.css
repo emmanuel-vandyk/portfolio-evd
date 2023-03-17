@@ -1,0 +1,90 @@
+/* Sobre mi Styles */
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100.8%;
+    height: 80vh;
+}
+
+h2, h3 {
+    color: var(--fg-color);
+    font-weight: bold;
+}
+
+/* Card Style */
+
+.card {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 300px;
+    width: 700px;
+    padding: 0;
+    background-color: var(--bg-general);
+    margin: 7%;
+}
+
+.card-title {
+    padding: 1rem 0;
+    width: 100%;
+    background: rgba(245, 245, 245, 0.05);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 0;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0 1em 1em;
+    margin: 0;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 0px 0px 10px 10px;
+    color: #c1c1c1;
+    border: 1px solid #000000;
+}
+
+span {
+    padding: .5em;
+    background: transparent;
+}
+
+.title-dev {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 25vw;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 0.015em;
+    background-color: var(--bg-general);
+    margin-top: 14%;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Botón resume */
+.btn {
+    width: 130px;
+    height: 42px;
+    text-align: center;
+    background-color: var(--log-btn);
+    color: rgba(249, 249, 250, 0.89);
+    border: 3px solid #C1C1C1;
+    border-radius: .9rem;
+    background: rgba(20, 25, 29, 0.57);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    filter: drop-shadow(0px 3px 1px rgba(0, 0, 0, 0.2));   
+    mix-blend-mode: normal;
+    border: 2px solid #EE652B;
+    margin-top: 2em;
+}
+
+.download-img {
+    height: 1em;
+    margin: 0 0 0 .5em;
+}
