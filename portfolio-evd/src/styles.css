@@ -18,5 +18,17 @@
     background-color: var(--bg-general);
     font-family: var(--general-font);
     font-style: normal;
-    font-weight: 700;
+    font-weight: 700
+}
+
+html {
+    display: flex;
+    flex-direction: column;
+    height: 7053px;
+}
+
+body {
+    background-color: var(--bg-general);
+    margin: 0; 
+    font-family: Roboto, "Helvetica Neue", sans-serif; 
 }

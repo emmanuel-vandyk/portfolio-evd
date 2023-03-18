@@ -8,6 +8,10 @@ import { BannerComponent } from './components/banner/banner.component';
 import { SobreMiComponent } from './components/sobre-mi/sobre-mi.component';
 import { FormacionComponent } from './components/formacion/formacion.component';
 import { SkillsComponent } from './components/skills/skills.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+// Import ng-circle-progress
+import { NgCircleProgressModule } from 'ng-circle-progress';
 
 @NgModule({
   declarations: [
@@ -20,9 +24,41 @@ import { SkillsComponent } from './components/skills/skills.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+
+    // Specify ng-circle-progress as an import
+    NgCircleProgressModule.forRoot({
+      "percent": 70,
+      "backgroundStrokeWidth": 0,
+      "backgroundPadding": 0,
+      "radius": 40,
+      "space": -13,
+      "toFixed": 0,
+      "maxPercent": 100,
+      "outerStrokeWidth": 13,
+      "outerStrokeColor": '#00ff47',
+      "outerStrokeGradientStopColor": '#00ff47',
+      "outerStrokeLinecap": 'inherit',
+      "innerStrokeColor": '#ffffff',
+      "innerStrokeWidth": 13,
+      "imageHeight": 40,
+      "imageWidth": 40,
+      "animation": true,
+      "animateTitle": false,
+      "animationDuration": 800,
+      "showTitle": false,
+      "showSubtitle": false,
+      "showUnits": false,
+      "showImage": true,
+      "showBackground": false,
+      "showInnerStroke": true,
+    })
+
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }
+
