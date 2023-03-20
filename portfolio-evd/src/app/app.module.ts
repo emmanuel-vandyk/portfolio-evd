@@ -38,9 +38,9 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
       "maxPercent": 100,
       "outerStrokeWidth": 13,
       "outerStrokeColor": '#00ff47',
-      "outerStrokeGradientStopColor": '#00ff47',
       "outerStrokeLinecap": 'inherit',
       "innerStrokeColor": '#ffffff',
+      "backgroundColor": '#0000004d',
       "innerStrokeWidth": 13,
       "imageHeight": 40,
       "imageWidth": 40,
@@ -51,7 +51,7 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
       "showSubtitle": false,
       "showUnits": false,
       "showImage": true,
-      "showBackground": false,
+      "showBackground": true,
       "showInnerStroke": true,
     })
 
