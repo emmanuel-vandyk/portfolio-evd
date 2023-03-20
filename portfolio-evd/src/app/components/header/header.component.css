@@ -3,6 +3,7 @@
     background-color: transparent;
 }
 
+/* Barra de navegación */
 .nav-bar {
     display: flex;
     justify-content: space-between;
@@ -13,27 +14,31 @@
     position: fixed;
     z-index: 2;
 }
-
+/* Logo Argentina Programa */
 .ap-logo {
     margin-left: 1em;
     height: 50px;
 }
 
+/* Seccion derecha de la barra de navegación */
 .nav-right {
     display: flex;
     text-align: center;
-    align-items: center;
+    align-items: baseline;
     width: 22vw;
     height: 50px;
     gap: 2em;
 }
 
+/* Sección Logos */
 .logos {
     display: flex;
     align-items: center;
-    gap: 1em;
+    gap: .7rem;
+    height: 40px;
 }
 
+/* Botón Login */
 .btn {
     height: 40px;
     text-align: center;
@@ -44,7 +49,7 @@
     filter: drop-shadow(0px 3px 1px rgba(0, 0, 0, 0.2));   
     mix-blend-mode: normal;
 }
-
+/* Texto Login */
 p {
     font-style: normal;
     font-weight: 700;
@@ -53,4 +58,21 @@ p {
     letter-spacing: 0.030em;
     margin: 0;
     padding: 0 .5em;
+}
+
+/* Estilos logos de redes sociales */
+.logo-linkedin {
+    height: 35px;
+}
+
+.logo-twitter {
+    height: 32px;
+}
+
+.logo-fb {
+    height: 35px;
+}
+
+.logo-github {
+    height: 35px;
 }
