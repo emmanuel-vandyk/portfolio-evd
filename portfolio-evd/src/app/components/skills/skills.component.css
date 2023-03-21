@@ -43,10 +43,55 @@ h1 {
 .card-body {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: flex-start;
-    height: 300px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
     border-radius: 0 0 10px 10px;
     background: rgba(0, 0, 0, 0.3);
     box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.hard-skills {
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.soft-skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: 70vw;
+    padding: 1rem 0;
+    margin-top: .5rem;
+}
+
+.soft-skills-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.skill-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: .2rem;
+
+}
+
+p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: var(--fg-color);
+    text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
+    padding: 1rem 0;
+    width: 11vw;
 }
