@@ -11,6 +11,13 @@
     --log-btn: #13161A;
 }
 
+html {
+    display: flex;
+    flex-direction: column;
+    height: 9053px;
+    background-color: var(--bg-general);
+}
+
 body:not(.circle-progress) {
     box-sizing: border-box;
     margin: 0;
@@ -21,15 +28,9 @@ body:not(.circle-progress) {
     font-weight: 700
 }
 
-html {
-    display: flex;
-    flex-direction: column;
-    height: 7053px;
-    background-color: var(--bg-general);
-}
 
 body {
     background-color: var(--bg-general);
     margin: 0; 
-    font-family: Roboto, "Helvetica Neue", sans-serif; 
+    font-family: Roboto, "Helvetica Neue", sans-serif;
 }
