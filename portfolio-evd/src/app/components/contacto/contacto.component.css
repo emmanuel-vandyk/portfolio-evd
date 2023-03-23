@@ -1,0 +1,192 @@
+main {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: fit-content;
+}
+
+.contacto-left {
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+}
+
+.header-contacto--left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 6em;
+    gap: 1em;
+}
+
+aside {
+    margin-left: .5em;
+    height: 1vh;
+}
+
+h3 {
+    text-align: center;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: -0.045em;
+    color: #FFFFFF;
+}
+
+.btns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.btn {
+    background: rgba(20, 25, 29, 0.57);
+    border: 1px solid rgba(20, 25, 29, 0.442);
+    box-shadow: 0px 0px 1px #727272;
+    border-radius: 8px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.2));
+}
+
+p {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 0;
+    text-align: center;
+    letter-spacing: 0.023em;
+    color: #FFFFFF;
+}
+
+#asterisco {
+    font-size: 30px;
+    color: red;
+    margin-left: .2em;
+}
+
+/* Styles Form */
+.formulario {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em; 
+}
+
+input,textarea {
+    display: flex;
+    align-items: center;
+    background: #404040;
+    border-radius: 10px;
+    border: none;
+    padding: 1em;
+    filter: drop-shadow(1px 1px 1px #171717);
+}
+
+input::placeholder, textarea::placeholder {
+    font-size: 14px;
+    line-height: 16px;
+    color: #A3A3A3;
+}
+
+.submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgba(249, 249, 250, 0.89);
+    filter: drop-shadow(0px 3px 1px rgba(0, 0, 0, 0.2));   
+    border: 2px solid #EE652B;
+    margin: 1.5em .7em 0 0;
+    background: rgba(0, 0, 0, 0.5);
+    border: 2px solid #EE652B;
+    box-shadow: 0px 0px 1px #727272;
+    border-radius: 30px;
+    padding: 1em;
+    width: 8vw;
+}
+
+.submit p {
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.023em;
+    text-align: center;
+}
+
+/* Contacto - Right */
+
+.contacto-right {
+    align-self: flex-start;
+    height: 100%;
+    width: 50vw;
+    margin-top: .5em;
+}
+
+
+h2 {
+    font-size: 25px;
+    line-height: 29px;
+    letter-spacing: -0.045em;
+    color: var(--fg-color);
+    text-transform: uppercase;
+    margin-left: 1.3em;
+}
+
+h2 span {
+    color: #FFFFFF;
+}
+
+/* Contacto Links */
+.contacto-links {
+    height: 45vh;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+li {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    list-style: none;
+}
+
+.contacto-links a {
+    display: flex;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: -0.045em;
+    color: #FFFFFF;
+    filter: drop-shadow(1px 1px 1px #171717);
+    margin-top: .5rem;
+}
+
+.contacto-links img {
+    filter: drop-shadow(1px 1px 1px black);
+    width: 29px;
+}
+
+.bg-contacto {
+    position: absolute;
+    z-index: 1;
+    width: 1118px;
+    height: 1050px;
+    top: 8346px;
+    left: 401px;
+
+}
+
+/* Logos Contacto */
+#linkedin-mini {
+    width: 28px;
+    padding-left: .1em;
+}

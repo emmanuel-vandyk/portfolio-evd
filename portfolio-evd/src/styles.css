@@ -14,7 +14,7 @@
 html {
     display: flex;
     flex-direction: column;
-    height: 9053px;
+    height: 100vh;
     background-color: var(--bg-general);
 }
 
@@ -26,11 +26,4 @@ body:not(.circle-progress) {
     font-family: var(--general-font);
     font-style: normal;
     font-weight: 700
-}
-
-
-body {
-    background-color: var(--bg-general);
-    margin: 0; 
-    font-family: Roboto, "Helvetica Neue", sans-serif;
 }
