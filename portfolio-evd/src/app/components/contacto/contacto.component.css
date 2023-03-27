@@ -1,7 +1,7 @@
 main {
     display: flex;
     justify-content: center;
-    height: 100vh;
+    margin-bottom: 35vh;
 }
 
 .contacto {
@@ -178,11 +178,10 @@ li {
 .bg-contacto {
     position: absolute;
     z-index: 1;
-    width: 1118px;
-    height: 1050px;
+    height: 1100px;
+    width: 70%;
     top: 8346px;
-    left: 401px;
-
+    left: 390px;
 }
 
 /* Logos Contacto */
