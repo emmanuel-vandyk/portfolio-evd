@@ -19,7 +19,8 @@
 }
 
 .card-body {
-    display: block;
+    display: flex;
+    justify-content: center;
     align-items: center;
     text-align: center;
     width: 100%;
@@ -78,7 +79,6 @@
 
 .section-perfil {
     display: block;
-    justify-content: baseline;
 }
 
 /* Responsive Mobile */
@@ -89,7 +89,8 @@
     }
 
     .card {
-        height: 70vh
+        height: 70vh;
+        gap: 1em;
     }
 
     .card-body {
@@ -108,12 +109,26 @@
     }
 
     .btn {
-        width: 60vw;
+        font-size: 20px;
+        width: 45vw;
+    }
+
+    /* Imagen de perfil */
+    .section-perfil {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+        width: fit-content;
     }
 
     .img-perfil {
-        width: 30%;
-        top: 97%;
-        margin: 0 3em;
+        width: 30vw;
+        top: 90;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: 0 auto;
+        padding-top: 3em;
     }
 }
