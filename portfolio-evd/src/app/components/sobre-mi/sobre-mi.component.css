@@ -1,7 +1,9 @@
 /* Sobre mi Styles */
 .row {
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
+    align-items: flex-start;
     width: 100.8%;
     height: 80vh;
 }
@@ -18,7 +20,7 @@ h1, h3 {
     align-self: flex-end;
     text-align: center;
     height: 300px;
-    width: 700px;
+    width: calc((100% / 2) - 30px);
     padding: 0;
     background-color: var(--bg-general);
     margin: 7%;
@@ -56,16 +58,17 @@ span {
 .title-dev {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     text-align: center;
-    width: 25vw;
-    font-size: 30px;
+    width: calc(60% / 2);
+    font-size: 25px;
     line-height: 35px;
     letter-spacing: 0.015em;
     background-color: var(--bg-general);
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    padding: 0 1rem 0 0;
+    padding: 0;
+    margin: 30px;
 }
 
 /* Botón resume */
@@ -89,4 +92,35 @@ span {
 .download-img {
     height: 1em;
     margin: 0 0 0 .5em;
+}
+
+/* Responsive Mobile */
+@media screen and (min-width: 0) and (max-width: 687px) {
+    .row {
+        flex-direction: column;
+    }
+    
+    .title-dev {
+        padding: 1em 0 0 0;
+        margin: 25px;
+        width: calc(100% - 30px);
+    }
+
+    h3 {
+        font-size: 20px;
+        padding: 0;
+    }
+
+    /* Boton Resume */
+    .btn {
+        margin: 30px;
+        width: calc(200px - 100px);
+        font-size: small;
+    }
+
+    .download-img {
+        height: .7em;
+        margin: 0 .3em;
+    }
+
 }
