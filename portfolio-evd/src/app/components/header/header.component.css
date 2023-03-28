@@ -82,17 +82,17 @@ p {
 /* Responsive Mobile */
 @media screen and (min-width: 0) and (max-width: 687px) {
     .nav-bar {
-        width: 100%;
+        margin: 0;
+        width: calc(100% - 30px);
         height: calc(8vh - 58px) * 2;
     }
     
     .nav-right {
         align-items: center;
-        margin-right: 5vh;
     }
 
     .ap-logo {
-        margin-left: 2%;
+        margin-left: calc(2px * 2);
     }
 
     .logos {
