@@ -101,7 +101,7 @@ span {
     }
     
     .title-dev {
-        padding: 1em 0 0 0;
+        padding: 2.5em 0 0 0;
         margin: 25px;
         width: calc(100% - 30px);
     }
@@ -123,4 +123,24 @@ span {
         margin: 0 .3em;
     }
 
+    .row {
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        margin: 0;
+    }
+
+    .card {
+        width: 100%;
+        padding: 0;
+        font-size: 15px;
+    }
+
+    .card, .card-title, .card-body {
+        border-radius: 0px;
+    }
+
+    .card-body {
+        padding: 1em;
+    }
 }
