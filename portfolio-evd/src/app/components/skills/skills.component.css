@@ -49,7 +49,7 @@ h1 {
     padding: 2rem;
 }
 
-.soft-skills {
+.soft-skills, .soft-skills-bottom {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -61,10 +61,6 @@ h1 {
 }
 
 .soft-skills-bottom {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
     width: 100%;
 }
 
@@ -87,4 +83,45 @@ p {
     text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
     padding: 1rem 0;
     width: 11vw;
+}
+
+/* Responsive Mobile */
+@media screen and (min-width: 0) and (max-width: 687px) {   
+    .card, h1 {
+        width: 100%;
+        border-radius: 0;
+        margin: 0;
+    }
+
+    .card-body {
+        margin: 0;
+        width: calc(100% - 30px);
+    }
+
+    .hard-skills {
+        width: 100%;
+        gap: 1rem;
+        padding: 1rem;
+    }
+ 
+    .circle-progress {
+        margin: .5em 0;
+        display: flex;
+        width: 28%;
+        height: auto;
+    }
+    /* Soft Skills */
+    .soft-body {
+        width: 100%;
+    }
+
+    .soft-skills, .soft-skills-bottom {
+        width: 90%;
+        align-items: baseline;
+        justify-content: space-between;
+    }
+
+    p {
+        width: 30vw;
+    }
 }
