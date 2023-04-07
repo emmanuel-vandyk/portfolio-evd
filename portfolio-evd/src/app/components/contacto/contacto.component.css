@@ -62,6 +62,11 @@ p {
     color: #FFFFFF;
 }
 
+.btn p:hover {
+    filter: contrast(200%) brightness(50%);
+    animation-duration: 2ms;
+}
+
 #asterisco {
     font-size: 30px;
     color: red;
@@ -76,7 +81,7 @@ p {
     gap: 1em; 
 }
 
-input,textarea {
+input, textarea {
     display: flex;
     align-items: center;
     background: #404040;
@@ -159,8 +164,7 @@ li {
     list-style: none;
 }
 
-.contacto-links a {
-    display: flex;
+a {
     text-decoration: none;
     font-size: 16px;
     line-height: 16px;
@@ -168,6 +172,11 @@ li {
     color: #FFFFFF;
     filter: drop-shadow(1px 1px 1px #171717);
     margin-top: .5rem;
+}
+
+a:hover {
+    color: var(--fg-color);
+    cursor: pointer;
 }
 
 .contacto-links img {
@@ -180,12 +189,57 @@ li {
     z-index: 1;
     height: 1100px;
     width: 70%;
-    top: 8346px;
-    left: 390px;
+    top: 7500px;
+    left: 410px;
 }
 
 /* Logos Contacto */
 #linkedin-mini {
     width: 28px;
     padding-left: .1em;
+}
+
+/* Responsive Mobile */
+@media screen and (min-width: 0) and (max-width: 687px) {
+    aside, .contacto-links, .bg-contacto, h3 {
+        display: none;
+    }
+
+    main {
+        margin-bottom: 15vh;
+    }
+
+    .contacto {
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        padding: 2em;
+        width: 100vw;
+        gap: 2em;
+    }
+
+    .contacto-left, .contacto-right, .header-contacto--left {
+        width: 100%;
+        margin: 0;
+        z-index: 0;
+    }
+
+    .header-contacto--left {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .btns {
+        width: fit-content;
+    }
+
+    h2, span {
+        width: fit-content;
+        margin: 0;
+    }
+
+    .submit {
+        width: fit-content;
+    }
 }
