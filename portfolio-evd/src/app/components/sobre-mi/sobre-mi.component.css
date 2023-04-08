@@ -104,14 +104,14 @@ span {
 
 
 /* Responsive Mobile */
-@media screen and (min-width: 0) and (max-width: 687px) {
+@media screen and (min-width: 0) and (max-width: 768px) {
     .row {
         flex-direction: column;
     }
     
     .title-dev {
         padding: 2.5em 0 0 0;
-        margin: 25px;
+        margin: 12%;
         width: 100%;   
     }
 

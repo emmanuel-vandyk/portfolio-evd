@@ -93,7 +93,7 @@
 }
 
 /* Responsive Mobile */
-@media screen and (min-width: 0) and (max-width: 687px) {
+@media screen and (min-width: 0) and (max-width: 768px) {
     .banner {
         background-image: linear-gradient(to bottom, #170f1c, #241623, #321b29, #40212d, #4e282f);
         width: 100%;
@@ -112,7 +112,7 @@
 
     .card-body {
         display: flex;
-        justify-content: flex-start;
+        justify-content: center;
         align-items: flex-start;
         font-size: 30px;
         line-height: 2em;

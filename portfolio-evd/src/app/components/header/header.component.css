@@ -88,15 +88,17 @@ a:hover, .btn:hover {
 }
 
 /* Responsive Mobile */
-@media screen and (min-width: 0) and (max-width: 687px) {
+@media screen and (min-width: 0) and (max-width: 767px) {
     .nav-bar {
         margin: 0;
-        width: calc(100% - 30px);
-        height: calc(8vh - 58px) * 2;
+        width: 100vw;
     }
     
     .nav-right {
+        width: 100%;
+        justify-content: flex-end;
         align-items: center;
+        margin-right: 2em;
     }
 
     .ap-logo {
@@ -105,5 +107,19 @@ a:hover, .btn:hover {
 
     .logos {
         display: none;
+    }
+}
+
+/* Responsive Tablet */
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+    .nav-bar {
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+/*         height: calc((8vh - 58px) * 2); */
+    }
+
+    .ap-logo {
+        margin-left: calc(2px * 2);
     }
 }
