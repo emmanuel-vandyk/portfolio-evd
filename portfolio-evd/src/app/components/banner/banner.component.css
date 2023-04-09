@@ -93,7 +93,7 @@
     display: block;
 }
 
-/* Responsive Mobile */
+/* Responsive Mobile y Tablet */
 @media screen and (min-width: 0) and (max-width: 1439px) {
     .banner {
         background-image: linear-gradient(to bottom, #170f1c, #241623, #321b29, #40212d, #4e282f);
@@ -149,7 +149,7 @@
         left: 0;
         right: 0;
         bottom: 0;
-        top: 90%;
+        top: 95%;
         margin: 0 auto;
         padding-top: 1em;
     }
