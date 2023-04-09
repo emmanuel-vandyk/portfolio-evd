@@ -187,9 +187,9 @@ a:hover {
 .bg-contacto {
     position: absolute;
     z-index: 1;
-    height: 1100px;
+    height: 1200px;
     width: 70%;
-    top: 7500px;
+    top: 8000px;
     left: 410px;
 }
 
@@ -200,7 +200,7 @@ a:hover {
 }
 
 /* Responsive Mobile */
-@media screen and (min-width: 0) and (max-width: 768px) {
+@media screen and (min-width: 0) and (max-width: 1280px) {
     aside, .contacto-links, .bg-contacto, h3 {
         display: none;
     }
@@ -231,7 +231,7 @@ a:hover {
     }
 
     .btns {
-        width: fit-content;
+        width: 100vw;
     }
 
     h2, span {

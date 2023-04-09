@@ -61,14 +61,15 @@ span {
     justify-content: flex-start;
     align-items: center;
     text-align: center;
-    width: calc(60% / 2);
+    width: 33%;
+    height: calc(100% / 3);
     font-size: 25px;
     line-height: 35px;
     letter-spacing: 0.015em;
     background-color: var(--bg-general);
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    padding: 0;
-    margin: 30px;
+    padding: 1em;
+    margin-top: 1em;
 }
 
 /* Botón resume */
@@ -103,15 +104,12 @@ span {
 }
 
 
-/* Responsive Mobile */
-@media screen and (min-width: 0) and (max-width: 768px) {
-    .row {
-        flex-direction: column;
-    }
+/* Responsive Mobile y Tablet */
+@media screen and (min-width: 0) and (max-width: 1439px) {
     
     .title-dev {
         padding: 2.5em 0 0 0;
-        margin: 12%;
+        margin-top: 15%;
         width: 100%;   
     }
 

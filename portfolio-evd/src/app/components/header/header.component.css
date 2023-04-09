@@ -114,12 +114,11 @@ a:hover, .btn:hover {
 @media screen and (min-width: 768px) and (max-width: 1439px) {
     .nav-bar {
         margin: 0;
-        padding: 0;
         width: 100vw;
-/*         height: calc((8vh - 58px) * 2); */
     }
 
-    .ap-logo {
-        margin-left: calc(2px * 2);
+    .nav-right {
+        width: fit-content;
+        margin-right: 2em;
     }
 }

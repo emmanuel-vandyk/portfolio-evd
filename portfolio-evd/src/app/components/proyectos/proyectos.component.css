@@ -68,6 +68,10 @@ h1 {
     font-weight: 600;
 }
 
+.card-title {
+    color: var(--fg-color);
+}
+
 .card-text {
     text-align: center;
     padding: 0 .5em;
@@ -80,8 +84,8 @@ h1 {
     height: 35vh;
 }
 
-/* Responsive Mobile */
-@media screen and (min-width: 0) and (max-width: 768px) {
+/* Responsive Mobile y Tablet */
+@media screen and (min-width: 0) and (max-width: 1439px) {
     
     .card-proyectos {
         width: 100%;
@@ -116,7 +120,6 @@ h1 {
         height: fit-content;
         padding: .5em;
         margin: 0;
-        color: var(--fg-color);
     }
 
     .card-text {
@@ -125,4 +128,28 @@ h1 {
         text-align: baseline;
         font-size: 12px;
     }
-} 
+}
+
+/* Medium Screen */
+@media screen and (min-width: 834px) and (max-width: 1023px) {
+    
+    .card-title {
+        font-size: 18px;
+    }
+    
+    .card-text {
+        font-size: 14px;
+    }
+}
+
+/* Querie 1280px - 1439px */
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    .card-title {
+        font-size: 25px;
+    }
+    
+    .card-text {
+        font-size: 18px;
+    }
+
+}

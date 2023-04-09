@@ -85,8 +85,8 @@ p {
     width: 11vw;
 }
 
-/* Responsive Mobile */
-@media screen and (min-width: 0) and (max-width: 768px) {   
+/* Responsive Mobile y Tablet */
+@media screen and (min-width: 0) and (max-width: 1439px) {   
     .card, h1 {
         width: 100%;
         border-radius: 0;
