@@ -13,7 +13,7 @@
     height: 10vh;
     width: 100%;
     position: fixed;
-    z-index: 2;
+    z-index: 3;
 } 
 
 /* Logo Argentina Programa */
@@ -98,7 +98,7 @@ a:hover, .btn:hover {
         width: 100%;
         justify-content: flex-end;
         align-items: center;
-        margin-right: 2em;
+        margin-right: 1em;
     }
 
     .ap-logo {
