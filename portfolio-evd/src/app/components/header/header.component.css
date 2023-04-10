@@ -63,20 +63,12 @@ p {
 }
 
 /* Estilos logos de redes sociales */
-.logo-linkedin {
+.logo-linkedin, .logo-fb, .logo-github {
     height: 35px;
 }
 
 .logo-twitter {
     height: 32px;
-}
-
-.logo-fb {
-    height: 35px;
-}
-
-.logo-github {
-    height: 35px;
 }
 
 /* Animaciones */

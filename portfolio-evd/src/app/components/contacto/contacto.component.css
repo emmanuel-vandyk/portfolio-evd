@@ -193,6 +193,15 @@ a:hover {
     left: 27vw;
 }
 
+/* Animacion de button submit */
+.submit:hover {
+    filter: contrast(130%);
+    transform: scale(1.3);
+    transition-property: all;
+    transition-duration: 600ms;
+}
+
+
 /* Logos Contacto */
 #linkedin-mini {
     width: 28px;

@@ -30,7 +30,3 @@ body:not(.circle-progress) {
     min-height: 100vh;
     margin: 0;
 }
-
-img {
-    object-fit: cover;
-}

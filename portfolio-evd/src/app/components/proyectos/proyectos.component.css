@@ -84,6 +84,14 @@ h1 {
     height: 35vh;
 }
 
+/* Animacion de tarjetas */
+.card-mobile:hover {
+    filter: contrast(110%) brightness(95%);
+    transform: scale(1.2);
+    transition-property: all;
+    transition-duration: 600ms;
+}
+
 /* Responsive Mobile y Tablet */
 @media screen and (min-width: 0) and (max-width: 1439px) {
     
