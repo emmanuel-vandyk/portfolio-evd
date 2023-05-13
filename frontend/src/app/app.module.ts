@@ -16,6 +16,9 @@ import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { ContactoComponent } from './components/contacto/contacto.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
+import { HttpClientModule } from '@angular/common/http';
+import { LoginComponent } from './components/login/login.component';
+import { RegisterComponent } from './components/register/register.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +31,9 @@ import { HomeComponent } from './components/home/home.component';
     ProyectosComponent,
     ContactoComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
@@ -61,8 +66,8 @@ import { HomeComponent } from './components/home/home.component';
       "showImage": true,
       "showBackground": true,
       "showInnerStroke": true,
-    })
-
+    }),
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

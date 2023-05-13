@@ -1,0 +1,87 @@
+
+.card {
+    background: #14161A;
+}
+
+.gradient-form {
+    background-color: var(--bg-general);
+}
+
+/* Encabezado Login */
+.encabezado {
+    color: var(--fg-color);
+    text-shadow: rgba(0, 0, 0, 50%);
+    font-weight: 800;
+}
+
+.descripcion {
+    color: #fccb90;
+}
+
+label {
+    color: var(--fg-color);
+    outline-color: var(--fg-color)
+}
+
+.form-control {
+    background: #404040;
+    color: #fccb90;
+    border: none;
+    padding: 1em;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border: 1px solid var(--fg-color);
+}
+
+.bg-img {
+    background: url('/assets/bg.jpg') center;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.btn {
+    color: #fccb90;
+    border-color: #ee7724;
+}
+
+.btn:hover {
+    background: var(--fg-color);
+    color: #14161A;
+    font-weight: 800;
+}
+
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: rgba(20, 25, 29, 0.57);
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: rgba(20, 25, 29, 0.57); 
+}
+
+/* Logos Formulario */
+
+@media (min-width: 768px) {
+    .gradient-form {
+        height: 100vh !important;
+    }
+}
+@media (min-width: 769px) {
+    .gradient-custom-2 {
+        border-top-right-radius: .3rem;
+        border-bottom-right-radius: .3rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .bg-img {
+        background: none !important;
+    }
+
+    .gradient-form {
+        background: url('/assets/bg.jpg') center;
+    }
+}
