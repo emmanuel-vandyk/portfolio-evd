@@ -96,9 +96,8 @@
 }
 
 /* Responsive Mobile y Tablet */
-@media screen and (min-width: 0) and (max-width: 1439px) {
+@media screen and (min-width: 0) and (max-width: 1380px) {
     .banner {
-        background-image: linear-gradient(to bottom, #170f1c, #241623, #321b29, #40212d, #4e282f);
         width: 100%;
         align-items: flex-start;
     }
@@ -132,7 +131,7 @@
 
     .btn {
         font-size: 20px;
-        width: 45vw;
+        width: 30vw;
         margin-bottom: -1em;
     }
 
