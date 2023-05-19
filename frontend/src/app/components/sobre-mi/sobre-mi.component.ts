@@ -8,8 +8,8 @@ import { PersonaService } from 'src/app/service/persona.service';
   styleUrls: ['./sobre-mi.component.css']
 })
 export class SobreMiComponent implements OnInit {
-  persona: persona = new persona("Dev Full Stack Jr", "", "")
-  
+  persona: persona = new persona("", "", "");
+    
   constructor(public personaService: PersonaService) { }
 
   ngOnInit(): void {
