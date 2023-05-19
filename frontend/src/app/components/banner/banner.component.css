@@ -100,6 +100,7 @@
     .banner {
         width: 100%;
         align-items: flex-start;
+        background: url('/assets/bg.jpg') center / cover;
     }
 
     .card {
