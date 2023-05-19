@@ -53,6 +53,7 @@ p {
     letter-spacing: 0.030em;
     margin: 0;
     padding: 0 .5em;
+    text-transform: uppercase;
 }
 
 /* Estilos logos de redes sociales */
